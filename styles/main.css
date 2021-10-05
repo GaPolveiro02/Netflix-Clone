@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,.00);
+}
+
+header .logo{
+    margin-left: 50px;
+    margin-right: 20px;
+    color: #e50914 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+header a:hover {
+    color: #aaa;
+}
+
+header i {
+    font-size: 25px;
+    margin-left: 690px;
+}
+
+.main-movie {
+    font-size: 15px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-house.jpg');
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-movie .titulo {
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.main-movie .descricao {
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.buttons {
+    margin-left: 50px;
+}
+
+.button {
+    background-color: rgba(109,109,109,.7);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border: 90px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.button:hover {
+    background-color: rgba(109,109,109,.3);
+}
+
+.buttons:hover {
+    background-color: linear-gradient(rgba(0,0,0,.50)) ;
+}
+
+.button i {
+    margin-right: 5px;
+}
+
+.main-movie .container {
+    width: 70%;
+}
+
+.box-filme {
+    height: 50%;
+    width: 50%;
+    display: block;
+}
+
+.box-filme:hover {
+    cursor: pointer;
+    height: 90px;
+    margin-right: 10px;
+    width: 490px;
+}
+
+@media screen and (max-width:700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button {
+        margin-top: 5px;
+        width: 300px;
+    }
+
+}
+
